@@ -1,0 +1,36 @@
+@import '_basic.scss';
+@import 'components/_navbar.scss';
+@import 'components/_footer.scss';
+@import 'components/home-page/_banner-sec.scss';
+@import 'components/home-page/_cards-sec.scss';
+@import 'components/home-page/_use-sec.scss';
+@import '_about-page.scss';
+@import '_careers-page.scss';
+@import '_location-page.scss';
+.btn {
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    border: none;
+    outline: none;
+    transition: 0.5s ;
+
+    
+    a {
+        color: #FFF;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: 3px solid #FCB72B;
+
+        a {
+            color: #FCB72B;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.map {
+    position: relative;
+    width: 100%;
+    margin-bottom: 12rem; 
+    margin-top: 138px;  
+    
+    h4 {
+        color: #495567;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.071px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    
+    .map {
+        margin-bottom: 6.4rem; } }
+        
+        @media only screen and (max-width: 700px) {
+            .map {
+                margin-bottom: 7.2rem; } }
+                .map__img {
+                    width: 100%; }
+                    .location {
+                        height: 1px;
+                        width: 1px;
+                        position: absolute; }
+                        @media only screen and (max-width: 1100px) {
+                            .location {
+                                transform: translateY(-5px); } }
+                                @media only screen and (max-width: 700px) {
+                                    .location {
+                                        display: none; } }
+                                        .location::before {
+                                            content: "";
+                                            position: absolute;
+                                            left: -2rem;
+                                            top: -2rem;
+                                            width: 4rem;
+                                            height: 2rem;
+                                            background-color: #fcb72b;
+                                            -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+                                            clip-path: polygon(50% 100%, 0 0, 100% 0); }
+                                            @media only screen and (max-width: 1100px) {
+                                                .location::before {
+                                                    left: -1rem;
+                                                    top: -0.5rem;
+                                                    width: 2rem;
+                                                    height: 1rem; } }
+                                                    .location::after {
+                                                        content: "";
+                                                        position: absolute;
+                                                        top: -8.9rem;
+                                                        left: -9.45rem;
+                                                        width: 18.9rem;
+                                                        height: 7rem;
+                                                        background-color: #fcb72b; }
+                                                        @media only screen and (max-width: 1100px) {
+                                                            .location::after {
+                                                                top: -3.4rem;
+                                                                left: -6rem;
+                                                                width: 12rem;
+                                                                height: 3rem; } }
+                                                                .location#new-york {
+                                                                    bottom: 70%;
+                                                                    left: 21%; }
+                                                                    .location#london {
+                                                                        top: 19%;
+                                                                        left: 44%; }
+                                                                        .location#yokohama {
+                                                                            top: 30%;
+                                                                            right: 14%; }
+                                                                            .location#jakarta {
+                                                                                right: 21.25%;
+                                                                                bottom: 38.5%; }
+                                                                                .location-name {
+                                                                                    position: absolute;
+                                                                                    top: -7.35rem;
+                                                                                    left: -9.45rem;
+                                                                                    width: 18.9rem;
+                                                                                    text-align: center;
+                                                                                    font-size: 2.3rem;
+                                                                                    z-index: 999; }
+                                                                                    @media only screen and (max-width: 1100px) {
+                                                                                        .location-name {
+                                                                                            font-size: 1.3rem;
+                                                                                            left: -6rem;
+                                                                                            width: 12rem;
+                                                                                            top: -2.9rem; } }
+                                                                                            .location-list {
+                                                                                                display: none;
+                                                                                            }
+                                                                                            
+                                                                                            @media only screen and (max-width: 700px) {
+                                                                                                .map {
+                                                                                                    .location-list {
+                                                                                                        display: flex;
+                                                                                                        flex-direction: column;
+                                                                                                        row-gap: 16px;
+                                                                                                        align-items: center;
+                                                                                                        
+                                                                                                        .location-list__item {
+                                                                                                            background-color: rgba(252, 183, 43, 0.15);
+                                                                                                            max-width: 311px;
+                                                                                                            
+                                                                                                            h4 {
+                                                                                                                color: #495567;
+                                                                                                                text-align: center;
+                                                                                                                font-family: Space Mono;
+                                                                                                                font-size: 24px;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 700;
+                                                                                                                line-height: 28px;
+                                                                                                                letter-spacing: -1.071px;
+                                                                                                            }
+                                                                                                        }
+                                                                                                        #similar {
+                                                                                                            padding: 22px 100px;
+                                                                                                        }
+                                                                                                        #london {
+                                                                                                            padding: 22px 113.5px 22px 100.5px;
+                                                                                                        }
+                                                                                                        #yokohama {
+                                                                                                            padding: 22px 98px;
+                                                                                                        }
+                                                                                                        #jakarta {
+                                                                                                            padding: 22px 100px;
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }

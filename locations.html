@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style/css/style.css">
+  
+  <title>imtihon</title>
+</head>
+<body>
+  
+  <header class="container">
+    <menu>
+      <nav>
+        <div class="mobile">
+          <img src="assets/icons/hamburger.svg" alt="Mobile menu icon">
+        </div>
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/logo.svg" alt="Logo">  
+          </a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Location</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div class="mobile-icon"></div>
+        <button class="btn">
+          <a href="#">
+            Get Scootin
+          </a>
+        </button>
+      </nav>
+    </menu>
+  </header>
+  
+  <main>
+    <section class="careers-1">
+      <div class="careers-1-items banner-container">
+        <h5>Locations</h5>
+        <img src="assets/patterns/banner-circles.svg" alt="Circles">
+      </div>
+    </section>
+    <main class="locations-container">
+      <section class="xarita">
+        <picture>
+          <source
+          srcset="assets/images/world-map-tablet.png"
+          media="(max-width: 1100px) and (min-width: 701px)"
+          />
+          <source
+          srcset="assets/images/world-map-mobile.png"
+          media="(max-width: 700px)"
+          />
+          <img
+          alt="world-map"
+          src="assets/images/world-map-desktop.png"
+          class="map__img"
+          />
+        </picture>
+        <div class="location" id="new-york">
+          <h4 class="location-name">New York</h4>
+        </div>
+        <div class="location" id="london">
+          <h4 class="location-name">London</h4>
+        </div>
+        <div class="location" id="yokohama">
+          <h4 class="location-name">Yokohama</h4>
+        </div>
+        <div class="location" id="jakarta">
+          <h4 class="location-name">Jakarta</h4>
+        </div>
+        
+        <div class="location-list">
+          <div class="location-list__item" id="similar">
+            <h4 class="heading-4 location-list__name">New York</h4>
+          </div>
+          <div class="location-list__item" id="london">
+            <h4 class="heading-4 location-list__name" >London</h4>
+          </div>
+          <div class="location-list__item" id="yokohama">
+            <h4 class="heading-4 location-list__name" >Yokohama</h4>
+          </div>
+          <div class="location-list__item" id="jakarta">
+            <h4 class="heading-4 location-list__name">Jakarta</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="sms container">
+      <h4>Your city not listed?</h4>
+      <p>If you’d like to see Scoot in your hometown, be sure to let us know. We track 
+        requests and plan launches based on demand. Feel free to message us by clicking 
+        the link or messaging us on social.
+      </p>
+      <button class="btn">
+        <a href="#">
+          Message Us
+        </a>
+      </button>
+    </section>
+    
+  </main>
+  
+  <footer>
+    <div class="footer ">
+      <div class="info container">
+        <div class="text">
+          <h5>Sign up and Scoot off today</h5>
+        </div>
+        <div class="download">
+          <img src="assets/icons/app-store.svg" alt="App Store Icon">
+          <img src="assets/icons/google-play.svg" alt="Google Play Icon">
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="nav__items container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/logo-footer.svg" alt="Logo">
+          </div>
+          <nav>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="locations.html">Location</a></li>
+              <li><a href="careers.html">Careers</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social">
+          <a href="#">
+            <img src="assets/icons/facebook.svg" alt="">
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram" class="footer-icon"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

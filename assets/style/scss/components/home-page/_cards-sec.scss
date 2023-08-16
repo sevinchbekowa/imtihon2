@@ -1,0 +1,156 @@
+.cards {
+    max-width: 1110px;
+    margin: 0 auto;
+    .stroke {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 840px;
+        height: 15px;
+        background-color: #E5ECF4;
+        margin-top: 208px;
+    }
+    
+    .text_item {
+        display: flex;
+        padding-top: 60px;
+        
+        #item {
+            h3 {
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: -1.071px;
+            }
+            p {
+                max-width: 350px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+        .scooter {
+            margin-left: 30px;
+        }
+        .ride {
+            margin-left: 30px;
+        }
+    }
+}
+
+.cards_mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cards {
+        
+        display: flex;
+        flex-direction: row;
+        margin-left: 97px;
+        .stroke {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 15px;
+            height: 420px;
+            background-color: #E5ECF4;
+            margin-top: 208px;
+        }
+        
+        .text_item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 180px;
+            
+            #item {
+                padding-left: 120px;
+                
+                h3 {
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.071px;
+                }
+                p {
+                    max-width: 350px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+            .scooter {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+            .ride {
+                margin-top: 0;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .cards {
+        display: none;
+    }
+    
+    
+    .cards_mobile {
+        display: flex;
+        flex-direction: column;
+        max-width: 1110px;
+        margin: 0 auto;
+        padding-top: 72px;
+        
+        .mobile_item {
+            margin-top: 48px;
+
+            img {
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                padding-bottom: 24px;
+            }
+            h3 {
+                max-width: 200px;
+                color: #495567;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: -0.893px;
+                padding-bottom: 24px;
+                margin: 0 auto;
+            }
+            p {
+                max-width: 311px;
+                margin: 0 auto;
+                color: #939CAA;
+                text-align: center;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+    }
+}
